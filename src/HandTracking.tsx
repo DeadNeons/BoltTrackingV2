@@ -749,7 +749,7 @@ setSpawnedNumbers(prevNumbers => [...prevNumbers, {
       <video
         ref={videoRef}
         className="absolute inset-0 w-full h-full object-cover"
-        style={{ width: '100%', height: '100%' }}
+        style={{ width: '100%', height: '100%' , transform: 'scaleX(-1)' }}
         playsInline
         muted
         autoPlay
