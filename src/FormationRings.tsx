@@ -156,7 +156,7 @@ const FormationRings: React.FC = () => {
   const numberOpacity = isHoldingFormation ? 1 : 0; // Opacity based on holding state
 
   return (
-    <group position={[3.6, -1, 0]}> {/* Adjust position as needed to place it below the code streamer */}
+    <group position={[-3.6, -1, 0]}> {/* Adjust position as needed to place it below the code streamer */}
       {ringDisplayPositions.current.map((pos, index) => (
         <React.Fragment key={`formation-item-${index}`}>
           <RingSprite2
