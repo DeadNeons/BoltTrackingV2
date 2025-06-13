@@ -242,7 +242,7 @@ function HandLandmarks({ landmarks }: { landmarks: HandLandmark[] }) {
     const scaleY = 5;
 
     return {
-      x: (point.x - 0.5) * -scaleX,
+      x: (point.x - 0.5) * scaleX,
       y: -(point.y - 0.5) * scaleY,
       z: -point.z * 2
     };
