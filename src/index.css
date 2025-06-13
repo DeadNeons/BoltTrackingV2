@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes scroll-up {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-50%); /* Scrolls up by half the content height */
+  }
+}
+
+.animate-scroll-up {
+  animation: scroll-up 10s linear infinite; /* Adjust duration as needed */
+}
