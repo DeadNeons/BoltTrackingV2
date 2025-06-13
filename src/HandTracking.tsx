@@ -769,7 +769,7 @@ setSpawnedNumbers(prevNumbers => [...prevNumbers, {
         }}
       >
         <XR>
-          <group scale={[-1, 1, 1]}> {
+          <group scale={[-1, 1, 1]}> 
           <Controllers />
           <XRHands />
           <ambientLight intensity={0.5} />
@@ -793,7 +793,7 @@ setSpawnedNumbers(prevNumbers => [...prevNumbers, {
           )}
           <EyeModel targetPosition={eyeModelPosition} />
           <FormationRings />
-
+            
           </group> {/* Close the group */}
         </XR>
       </Canvas>
